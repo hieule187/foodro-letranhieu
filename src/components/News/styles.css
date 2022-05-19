@@ -1,0 +1,144 @@
+.news-wrapper {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.news-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.news-description {
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-food-option {
+  margin-left: 16px;
+  margin-top: 24px;
+}
+
+.food-option {
+  padding: 10px 16px 14px;
+  border-radius: 50px;
+  text-align: center;
+  width: 120px;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.food-option-active {
+  background-color: rgb(184, 11, 106);
+  color: #fff;
+}
+
+.food-card {
+  margin-right: 50px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  margin-bottom: 32px;
+}
+
+.img-food-card {
+  border-radius: 10px 10px 0 0;
+}
+
+.img-food-card:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.divider {
+  border-bottom: 1px solid #dadde1;
+}
+
+.oder-now {
+  color: rgb(184, 11, 106);
+}
+
+.oder-now:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.details-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.details-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.details-price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 32px;
+  color: rgb(184, 11, 106);
+}
+
+.arrow-left {
+  text-align: end;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.icon-arrow-left {
+  background-color: #dadde1;
+  border-radius: 50%;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.details-btn {
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(184, 11, 106);
+  width: 160px;
+  height: 48px;
+  padding-top: 3px;
+  margin-top: 32px;
+}
+
+.details-btn:hover {
+  background-color: rgb(184, 11, 106);
+}
+
+.details-btn:focus,
+.details-btn:active {
+  outline: none;
+  background-color: rgb(184, 11, 106);
+  border: none;
+  box-shadow: none;
+}
+
+.arrow-right {
+  text-align: end;
+  font-weight: bold;
+  margin-top: 34px;
+}
+
+.icon-arrow-right {
+  background-color: rgb(184, 11, 106);
+  border-radius: 50%;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.food-title:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
